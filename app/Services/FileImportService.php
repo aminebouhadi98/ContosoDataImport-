@@ -14,7 +14,7 @@ class FileImportService
     private $importers = [
         'csv' => CsvImporter::class,   // Per i file CSV
         'xlsx' => ExcelImporter::class, // Per i file Excel
-    //    'xml' => XmlImporter::class, // Per i file XML (commentato)
+        'xml' => XmlImporter::class, // Per i file XML (commentato)
     ];
 
     public function run()
